@@ -15,10 +15,48 @@
 
     <!-- tailwind css framework -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    
+
     <title>Document</title>
 </head>
 <body>
-    <h1>Bangladesh</h1>
+    <header>
+        <nav class="flex items-center bg-[#FFF9F4] py-6 justify-between px-4 md:px-35 sora-font">
+            <!-- brand name icon -->
+            <div class="flex items-center">
+                <div class="mr-3">
+                    <img src="c1-assets/logo-header.png" alt="">
+                </div>
+                <div>
+                    <h3 class="text-xl hidden md:block">Browse Pets</h3>
+                </div>
+            </div>
+
+            <!-- nav link -->
+            <div class="md:block hidden text-xl">
+                <ul class="flex">
+                    <li class="mr-8 hover:underline"><a href="#">Find a pet</a></li>
+                    <li class="mr-8"><a href="#">Breeds</a></li>
+                    <li class="mr-8"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <!-- nav button -->
+            <div class="flex items-center">
+                <a href="#" class="md:block hidden text-2xl"><i class="fa-regular fa-bell"></i></a>
+                <a href="#" class="md:block hidden mx-4 text-2xl"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="flex gap-3">
+                    <a href="#" class="md:block hidden border border-[#FFDC26] hover:bg-[#FFDC26] p-[10px] text-xl rounded-lg">Login</a>
+                    <a href="#" class="md:block hidden border border-[#FFDC26] bg-[#FFDC26] py-[10px] px-8 rounded-lg text-xl">Register</a>
+                </div>
+                <a href="#" class="md:hidden block"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </nav>
+
+    </header>
+
+    
+    <main class="max-w-screen-xl mx-auto">
+        
+    </main>
 </body>
 </html>
