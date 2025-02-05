@@ -13,14 +13,29 @@
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- tailwind css framework -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisyUI and tailwind link setup-->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- tailwind customization -->
+<script>
+    tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                clifford: '#da373d',
+            'primary-color': '#FFDC26'
+        }
+        }
+    }
+    }
+</script>
 
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav class="flex items-center bg-[#FFF9F4] py-6 justify-between px-4 md:px-35 sora-font">
+        <nav class="flex items-center bg-[#FFF9F4] py-6 justify-between px-4 md:px-[190px] sora-font">
             <!-- brand name icon -->
             <div class="flex items-center">
                 <div class="mr-3">
@@ -55,8 +70,19 @@
     </header>
 
     
-    <main class="max-w-screen-xl mx-auto">
-        
+    <main class="max-w-screen-2xl mx-auto">
+        <!-- banner section code start here -->
+        <section>
+            <div class="w-full relative md:h-[820px] h-[340px]">
+                <img src="c1-assets/cat-big.png" class="bottom-0 right-0 h-full" alt="">
+                <div class="absolute md:top-[150px] top-7 left-3">
+                    <h1 class="adlam-display-font md:text-5xl text-[25px] md:mb-[20px] mb-2">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h1>
+                    <p class="sora-font md:text-xl text-[0.8rem] w-3/4">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                    <button class="bg-primary-color py-2 px-3 rounded-xl md:text-xl text-base sora-font md:mt-[20px] mt-3">Find a pet</button>
+                </div>
+            </div>
+        </section>
+        <!-- banner section code end here -->
     </main>
 </body>
 </html>
