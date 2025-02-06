@@ -63,7 +63,13 @@
                 <a href="#" class="md:block hidden mx-4 text-2xl"><i class="fa-solid fa-magnifying-glass"></i></a>
                 <div class="flex gap-3">
                     <a href="#" class="md:block hidden border border-[#FFDC26] hover:bg-[#FFDC26] p-[10px] text-xl rounded-lg">Login</a>
-                    <a href="#" class="md:block hidden border border-[#FFDC26] bg-[#FFDC26] py-[10px] px-8 rounded-lg text-xl">Register</a>
+                    <span class="relative flex size-3">
+                        <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
+                        <span class="relative inline-flex size-3 rounded-full bg-sky-500">
+                        </span>
+                      </span>
+                      <a href="#" class="md:block hidden border border-[#FFDC26] bg-[#FFDC26] py-[10px] px-8 rounded-lg text-xl">Register</a>
+                    
                 </div>
                 <a href="#" class="md:hidden block"><i class="fa-solid fa-bars"></i></a>
             </div>
@@ -88,7 +94,7 @@
 
         <!-- categories section code start here -->
         <section class="mt-[100px] mb-[100px] max-w-screen-2xl mx-auto">
-            <h1 class="adlam-display-font text-4xl mb-[35px] md:ml-0 ml-[30px]">Browse By Categories</h1>
+            <h1 class="adlam-display-font md:text-4xl text-2xl mb-[35px] md:ml-0 ml-[30px]">Browse By Categories</h1>
             <div class="grid md:grid-cols-6 gap-5 grid-cols-2 md:mx-0 mx-4">
 
                 <div class="bg-second-color text-center p-[35px] space-y-2 items-center rounded-lg">
@@ -152,7 +158,7 @@
         <!-- products section code start here -->
         <section class="bg-[#FFF9F4] py-[50px] mb-[100px]">
             <div class=" max-w-screen-2xl mx-auto">
-                <h1 class="adlam-display-font text-4xl mb-[40px] md:ml-0 ml-[30px]">Trending Pet Products</h1>
+                <h1 class="adlam-display-font md:text-4xl text-2xl mb-[40px] md:ml-0 ml-[30px]">Trending Pet Products</h1>
 
                 <div class="md:flex gap-[20px] md:justify-between">
                     <div class="bg-second-color md:py-[70px] md:pl-[20px] md:pr-[40px] relative rounded-xl p-[50px]">
@@ -273,7 +279,7 @@
 
         <!-- everyday price section code start here -->
         <section class="max-w-screen-2xl mx-auto mb-[100px]">
-            <h1 class="adlam-display-font text-4xl md:mb-[30px] mb-[16px] md:ml-0 ml-[30px]">Everyday Low Price</h1>
+            <h1 class="adlam-display-font md:text-4xl text-2xl md:mb-[30px] mb-[16px] md:ml-0 ml-[30px]">Everyday Low Price</h1>
         <div class="md:flex md:gap-[50px] md:p-0 p-[20px]">
             <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] md:w-3/5 flex md:items-center justify-center rounded-xl mb-[-30px] md:mb-0 py-[10px]">
                 <div class="md:ml-0 ml-5 md:mt-0 mt-5">
@@ -301,6 +307,81 @@
         </div>
         </section>
         <!-- everyday price section code end here -->
+
+        <!-- Best sells section code start here -->
+        <section class="max-w-screen-2xl mx-auto">
+            <h1 class="adlam-display-font md:text-4xl text-2xl md:mb-[30px] mb-[20px] md:ml-0 ml-[30px]">Best sells Products</h1>
+
+            <div class="grid md:grid-cols-3 grid-cols-1 md:justify-between md:gap-0 gap-[20px] m-4">
+                <div class="card bg-pink-100 w-96 shadow-xl">
+                    <figure>
+                      <img
+                        src="c1-assets/dog-cartoon.png"
+                        class="bg-white p-4 rounded-xl mt-[20px]"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">
+                        DOG!
+                        <div class="badge badge-secondary">BEST SELLS</div>
+                      </h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <div class="badge badge-outline">product code</div>
+                        <div class="badge badge-outline">More</div>
+                      </div>
+                    </div>
+                </div>
+
+                  <div class="card bg-pink-100 w-96 shadow-xl">
+                    <figure>
+                      <img
+                        src="c1-assets/fish-cartoon.png"
+                        class="bg-white p-4 rounded-xl mt-[20px]"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">
+                        FISH!
+                        <div class="badge badge-secondary">BEST SELLS</div>
+                      </h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <div class="badge badge-outline">product code</div>
+                        <div class="badge badge-outline">More</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-pink-100 w-96 shadow-xl">
+                    <figure>
+                      <img
+                        src="c1-assets/cat-cartoon.png"
+                        class="bg-white p-4 rounded-xl mt-[20px]"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">
+                        CAT!
+                        <div class="badge badge-secondary">BEST SELLS</div>
+                      </h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <div class="badge badge-outline">product code</div>
+                        <div class="badge badge-outline">More</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- best sells section code end here -->
+
     </main>
+
+
+    <!-- footer section code start here -->
+
+
+    <!-- footer section code end here -->
 </body>
 </html>
